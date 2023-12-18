@@ -21,7 +21,7 @@ def get_local_ip():
 def is_peak_hour():
     now = datetime.datetime.now()
     hour = now.hour
-    return 8 <= hour < 18  # Adjust peak hours based on your definition
+    return 7 <= hour < 17# Adjust peak hours based on your definition
 
 async def run_speed_test(test_num, st):
     async def download_progress(session, url):
